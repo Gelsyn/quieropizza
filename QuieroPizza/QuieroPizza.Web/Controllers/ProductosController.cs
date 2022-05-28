@@ -12,7 +12,7 @@ namespace QuieroPizza.Web.Controllers
         // GET: Productos
         public ActionResult Index()
         {
-            var producto1 = new ProductoModel();
+            var producto1 = new ProductoModel(); 
             producto1.Id = 1;
             producto1.Descripcion ="Pizza 6 quesos ";
 
